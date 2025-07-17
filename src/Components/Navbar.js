@@ -19,7 +19,7 @@ export default function Navbar(props) {
               <Link className="nav-link" to="/about">About</Link>
             </li>
           </ul>
-
+{/*
           <div className="d-flex">
             <button className="btn btn-light mx-1" onClick={() => props.toggleMode('light')}>Light</button>
             <button className="btn btn-dark mx-1" onClick={() => props.toggleMode('dark')}>Dark</button>
@@ -32,6 +32,7 @@ export default function Navbar(props) {
             <button className="btn btn-pink mx-1" onClick={() => props.toggleMode('pink')}>Pink</button>
             <button className="btn btn-orange mx-1" onClick={() => props.toggleMode('orange')}>Orange</button>
           </div>
+          *\}
         </div>
       </div>
     </nav>
